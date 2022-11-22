@@ -17,6 +17,7 @@ pipeline {
         }
         stage('delivery'){
             steps{
+                sh 'npm install nodemon --save-dev'
                 sh 'npm run dev'
             }
         }
