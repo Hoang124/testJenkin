@@ -6,6 +6,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
+                sh 'echo xin chao'
                 sh 'npm install' 
             }   
         }
