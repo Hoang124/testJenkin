@@ -6,7 +6,6 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'cd api'
                 sh 'npm install' 
             }   
         }
